@@ -21,5 +21,9 @@ To build a redistributable, production mode package, use `wails build`.
 ## Build
 
 ```bash
+# build all
+wails build -tags webkit2_41 -platform darwin,windows,linux -upx -nsis
+
+# build for windows/amd64
 wails build -tags webkit2_41 -platform windows/amd64 -upx -nsis
 ```
