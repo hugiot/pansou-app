@@ -1,24 +1,16 @@
-# README
+# Pansou App
 
-## About
+使用 **Wails** 开发，跨平台的 **Pansou** 桌面应用
 
-This is the official Wails Vanilla template.
+## 快速开始
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+1. 通过 Releases 下载最新版本
+2. 安装
 
-## Live Development
+## 开发者
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
 
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
-
-## Build
+### 构建
 
 ```bash
 # build all
@@ -27,3 +19,18 @@ wails build -tags webkit2_41 -platform darwin,windows,linux -upx -nsis
 # build for windows/amd64
 wails build -tags webkit2_41 -platform windows/amd64 -upx -nsis
 ```
+
+## 更新记录
+
+* 2025-09-26
+  * 发布 v0.1.0
+  * pansou 版本：main@789cba8（新增插件bixin）
+  * pansou-web 版本：main@b708ab9（update）
+
+## 感谢
+
+* [pansou](https://github.com/fish2018/pansou)
+* [pansou-web](https://github.com/fish2018/pansou-web)
+* [Wails](https://wails.io/)
+
+
