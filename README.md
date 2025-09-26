@@ -27,6 +27,14 @@ wails build -tags webkit2_41 -platform windows/amd64 -upx -nsis
   * pansou-web 版本：main@b708ab9（update）
   * 支持 Windows、Linux 平台
 
+## 免责声明
+
+该项目仅供学习交流使用，严禁商业用途。
+
+我们不存储任何文件，仅提供搜索服务。
+
+使用本站即表示您同意遵守相关法律法规，由此产生的责任与本站无关。
+
 ## 感谢
 
 * [pansou](https://github.com/fish2018/pansou)
