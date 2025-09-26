@@ -22,10 +22,10 @@ wails build -tags webkit2_41 -platform windows/amd64 -upx -nsis
 
 ## 更新记录
 
-* 2025-09-26
-  * 发布 v0.1.0
+* v0.1.0
   * pansou 版本：main@789cba8（新增插件bixin）
   * pansou-web 版本：main@b708ab9（update）
+  * 支持 Windows、Linux 平台
 
 ## 感谢
 
